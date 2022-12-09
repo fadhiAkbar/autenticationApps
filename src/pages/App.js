@@ -1,9 +1,9 @@
 import React from "react";
-import { Switch } from "../config";
+import { Router } from "../config";
 import "./App.css";
 
 const App = () => {
-  return <Switch />;
+  return <Router />;
 };
 
 export default App;

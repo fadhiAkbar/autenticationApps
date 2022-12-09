@@ -20,7 +20,7 @@ const Register = () => {
         <Gap height={50} />
         <Button title="Register" />
         <Gap height={100} />
-        <Link title="Kembali ke Login" />
+        <Link text="Kembali ke" textLink="Login" />
       </div>
     </div>
   );

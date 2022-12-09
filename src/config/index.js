@@ -1,3 +1,3 @@
-import Switch from "./Switch";
+import Router from "./Router";
 
-export { Switch };
+export { Router };

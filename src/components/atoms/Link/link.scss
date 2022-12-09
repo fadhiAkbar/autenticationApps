@@ -1,6 +1,15 @@
-.link {
-  text-align: center;
-  font-size: 16px;
-  color: #7f81e3;
-  text-decoration: underline;
+.wrapper {
+  display: flex;
+  justify-content: center;
+  .text {
+    color: #2d2d2d;
+    padding-right: 7px;
+  }
+  .link {
+    text-align: center;
+    font-size: 16px;
+    color: #7f81e3;
+    font-weight: bold;
+    cursor: pointer;
+  }
 }
