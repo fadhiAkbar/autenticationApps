@@ -1,8 +1,11 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import { LoginBg } from "../../assets";
+import { Gap, Link } from "../../components";
 import "./detailBlog.scss";
 
 const DetailBlog = () => {
+  const navigate = useNavigate();
   return (
     <div className="detail-blog-wrapper">
       <img className="img-cover" src={LoginBg} alt="thumb" />
@@ -27,17 +30,11 @@ const DetailBlog = () => {
         fugiat anim adipisicing cillum. Velit ullamco est in laboris pariatur.
         Eiusmod eu Lorem esse occaecat sunt nulla in reprehenderit dolor magna
         ut. Quis occaecat ea irure laboris officia ut aliqua ullamco Lorem
-        consectetur do eu consectetur. Pariatur occaecat qui do ea cillum duis
-        velit non id. Consequat pariatur sunt sunt voluptate excepteur deserunt
-        irure duis. Et excepteur esse ea duis sunt commodo adipisicing proident
-        dolore tempor. Quis consequat aute cillum eiusmod excepteur culpa. Esse
-        ipsum duis sit et reprehenderit do amet quis anim pariatur ut fugiat
-        esse. Eu est et deserunt eu magna ex eu adipisicing aute elit esse
-        laborum. Est sunt dolor fugiat aliqua ut ipsum id duis elit in et. Quis
-        deserunt velit exercitation aliquip. Qui laboris aliquip sit dolor eu
-        exercitation et ipsum ut esse officia pariatur. Pariatur esse sit
-        laboris minim duis quis dolor.
+        consectetur do eu consectetur.
       </p>
+      <Gap height={20} />
+      <Link textLink="Kembali ke Home" onClick={() => navigate("/")} />
+      <Gap height={20} />
     </div>
   );
 };
