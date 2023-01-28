@@ -2,7 +2,7 @@
 
 ## `Preview Project 👇`
 
-DEMO : https://https://react-blog-sepia-sigma.vercel.app/
+DEMO : https://react-blog-sepia-sigma.vercel.app/
 
 ![Screenshot](public/preview.png)
 
