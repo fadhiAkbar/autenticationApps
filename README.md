@@ -17,7 +17,7 @@ DEMO : https://react-blog-sepia-sigma.vercel.app/
 
 You can clone by using git clone on your terminal:
 
-    git clone https://github.com/tonbots/React-Blog.git
+    git clone https://github.com/tondeveloperr/React-Blog.git
 
 You can clone by click on the GitHub green button "CODE" and download the .zip
 
