@@ -19,26 +19,16 @@ const Header = () => {
   }, []);
 
   console.log(user);
-  const handleLogOut = async () => {
-    try {
-      const response = await axios.delete(
-        "https://api.kodein.sch.id/api/v1/auth/logout",
-        {},
-        {
-          headers: {
-            Authorization: `Bearer ${user?.refresh_token}`, // Still using refresh_token as per API
-          },
-        }
-      );
-      console.log(response);
-    } catch (error) {
-      console.log("error :", error);
-    }
-  };
   return (
     <div className="header">
       <p className="logo-app">TomSaymon Blog</p>
-      <p className="menu-item" onClick={handleLogOut}>
+      <p
+        className="menu-item"
+        onClick={() => {
+          localStorage.clear();
+          navigate("/login");
+        }}
+      >
         Logout
       </p>
     </div>
