@@ -2,6 +2,7 @@
 import LoginBg from "./image/login-bg.jpg";
 import ILNotFound from "./image/not-found.svg";
 import RegisterBg from "./image/register-bg.jpg";
+import htmlBg from "./image/html.jpg";
 //Icon
 import IconFacebook from "./icon/facebook.svg";
 import IconGithub from "./icon/github.svg";
@@ -16,4 +17,5 @@ export {
   IconInstagram,
   IconYoutube,
   ILNotFound,
+  htmlBg,
 };
