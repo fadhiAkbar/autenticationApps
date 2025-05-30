@@ -19,6 +19,17 @@ const Register = () => {
         <Input label="Email" placeholder="Email" />
         <Gap height={18} />
         <Input label="Password" placeholder="Password" />
+        <Gap height={18} />
+        <div className="input-wrapper">
+          <label for="gender" className="label">
+            Gender :
+          </label>
+          <select name="gender" id="gender" className="input">
+            <option disabled>Select Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </div>
         <Gap height={50} />
         <Button title="Register" onClick={() => navigate("/login")} />
         <Gap height={100} />

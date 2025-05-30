@@ -6,7 +6,7 @@ const Header = () => {
   const navigate = useNavigate();
   return (
     <div className="header">
-      <p className="logo-app">MERN Blog</p>
+      <p className="logo-app">TomSaymon Blog</p>
       <p className="menu-item" onClick={() => navigate("/login")}>
         Logout
       </p>

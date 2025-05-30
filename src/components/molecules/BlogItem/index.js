@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { RegisterBg } from "../../../assets";
+import { htmlBg } from "../../../assets";
 import { Button, Gap } from "../../atoms";
 import "./blogItem.scss";
 
@@ -8,10 +8,10 @@ const BlogItem = () => {
   const navigate = useNavigate();
   return (
     <div className="blog-item">
-      <img className="img-thumb" src={RegisterBg} alt="post" />
+      <img className="img-thumb" src={htmlBg} alt="post" />
       <div className="content-detail">
-        <p className="title">Title Blog</p>
-        <p className="author">Author - Date post</p>
+        <p className="title">Tutor Coding</p>
+        <p className="author">Author - TomSaymon.</p>
         <p className="paragraf">
           Commodo ad sint amet commodo Lorem elit. Aute tempor ullamco esse
           labore et nisi ullamco in laborum duis ullamco. Ipsum voluptate

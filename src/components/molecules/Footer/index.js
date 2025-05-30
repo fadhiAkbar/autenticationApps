@@ -21,8 +21,8 @@ const Footer = () => {
       </div>
       <div className="copyright">
         <p>
-          Copyright <span>&#169;</span> 2022-2023 Kartono Saleh All Right
-          Reserved
+          Copyright <span>&#169;</span> 2025-2026 Fadhil Akbar Djunaedi All
+          Right Reserved
         </p>
       </div>
     </div>
